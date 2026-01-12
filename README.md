@@ -82,6 +82,25 @@ curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/r
 
 </details>
 
+<details>
+<summary><strong>Codex</strong></summary>
+
+**Option A: Let AI do it**
+
+Paste this into Codex:
+
+```
+Install the emil-roast command in `~/.codex/prompts/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/refs/heads/main/command/emil-roast.md
+```
+
+**Option B: Manual**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/refs/heads/main/command/emil-roast.md -o ~/.codex/prompts/emil-roast.md
+```
+
+</details>
+
 ## Usage
 
 ```bash
