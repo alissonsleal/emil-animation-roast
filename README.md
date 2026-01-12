@@ -9,14 +9,18 @@ Based on Emil's [animation philosophy](https://emilkowal.ski/), [animations.dev 
 <details>
 <summary><strong>OpenCode</strong></summary>
 
-**With AI** - paste this prompt:
+**Option A: Let AI do it**
 
-> Install the emil-roast command in `~/.config/opencode/command/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md
+Paste this into OpenCode:
 
-**Manual:**
+```
+Install the emil-roast command in `~/.config/opencode/command/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/refs/heads/main/command/emil-roast.md
+```
+
+**Option B: Manual**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o ~/.config/opencode/command/emil-roast.md
+curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/refs/heads/main/command/emil-roast.md -o ~/.config/opencode/command/emil-roast.md
 ```
 
 </details>
@@ -24,14 +28,18 @@ curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/m
 <details>
 <summary><strong>Claude Code</strong></summary>
 
-**With AI** - paste this prompt:
+**Option A: Let AI do it**
 
-> Install the emil-roast command in `~/.claude/commands/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md
+Paste this into Claude Code:
 
-**Manual:**
+```
+Install the emil-roast command in `~/.claude/commands/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/refs/heads/main/command/emil-roast.md
+```
+
+**Option B: Manual**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o ~/.claude/commands/emil-roast.md
+curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/refs/heads/main/command/emil-roast.md -o ~/.claude/commands/emil-roast.md
 ```
 
 </details>
@@ -39,14 +47,18 @@ curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/m
 <details>
 <summary><strong>Gemini CLI</strong></summary>
 
-**With AI** - paste this prompt:
+**Option A: Let AI do it**
 
-> Install the emil-roast command in `~/.gemini/commands/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md
+Paste this into Gemini CLI:
 
-**Manual:**
+```
+Install the emil-roast command in `~/.gemini/commands/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/refs/heads/main/command/emil-roast.md
+```
+
+**Option B: Manual**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o ~/.gemini/commands/emil-roast.md
+curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/refs/heads/main/command/emil-roast.md -o ~/.gemini/commands/emil-roast.md
 ```
 
 </details>
@@ -54,14 +66,18 @@ curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/m
 <details>
 <summary><strong>Cursor</strong></summary>
 
-**With AI** - paste this prompt:
+**Option A: Let AI do it**
 
-> Install the emil-roast command in `.cursor/commands/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md
+Paste this into Cursor:
 
-**Manual:**
+```
+Install the emil-roast command in `.cursor/commands/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/refs/heads/main/command/emil-roast.md
+```
+
+**Option B: Manual**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o .cursor/commands/emil-roast.md
+curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/refs/heads/main/command/emil-roast.md -o .cursor/commands/emil-roast.md
 ```
 
 </details>
