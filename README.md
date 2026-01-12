@@ -6,29 +6,37 @@ Based on Emil's [animation philosophy](https://emilkowal.ski/), [animations.dev 
 
 ## Installation
 
-Copy `command/emil-roast.md` to your AI tool's commands directory:
+### With AI
 
-### OpenCode
+Paste this in your AI tool:
 
-```bash
-cp command/emil-roast.md ~/.config/opencode/command/
-```
+> Install the emil-roast command in `~/.config/opencode/command/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md
 
-### Claude Code
+### Manual
 
-```bash
-cp command/emil-roast.md ~/.claude/commands/
-```
-
-### Gemini CLI
+#### OpenCode
 
 ```bash
-cp command/emil-roast.md ~/.gemini/commands/
+curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o ~/.config/opencode/command/emil-roast.md
 ```
 
-### Cursor
+#### Claude Code
 
-Add to `.cursor/commands/` in your project or global config.
+```bash
+curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o ~/.claude/commands/emil-roast.md
+```
+
+#### Gemini CLI
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o ~/.gemini/commands/emil-roast.md
+```
+
+#### Cursor
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o .cursor/commands/emil-roast.md
+```
 
 ## Usage
 
