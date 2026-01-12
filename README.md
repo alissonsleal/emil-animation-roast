@@ -6,37 +6,65 @@ Based on Emil's [animation philosophy](https://emilkowal.ski/), [animations.dev 
 
 ## Installation
 
-### With AI
+<details>
+<summary><strong>OpenCode</strong></summary>
 
-Paste this in your AI tool:
+**With AI** - paste this prompt:
 
 > Install the emil-roast command in `~/.config/opencode/command/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md
 
-### Manual
-
-#### OpenCode
+**Manual:**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o ~/.config/opencode/command/emil-roast.md
 ```
 
-#### Claude Code
+</details>
+
+<details>
+<summary><strong>Claude Code</strong></summary>
+
+**With AI** - paste this prompt:
+
+> Install the emil-roast command in `~/.claude/commands/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md
+
+**Manual:**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o ~/.claude/commands/emil-roast.md
 ```
 
-#### Gemini CLI
+</details>
+
+<details>
+<summary><strong>Gemini CLI</strong></summary>
+
+**With AI** - paste this prompt:
+
+> Install the emil-roast command in `~/.gemini/commands/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md
+
+**Manual:**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o ~/.gemini/commands/emil-roast.md
 ```
 
-#### Cursor
+</details>
+
+<details>
+<summary><strong>Cursor</strong></summary>
+
+**With AI** - paste this prompt:
+
+> Install the emil-roast command in `.cursor/commands/emil-roast.md` from https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md
+
+**Manual:**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/main/command/emil-roast.md -o .cursor/commands/emil-roast.md
 ```
+
+</details>
 
 ## Usage
 
