@@ -112,7 +112,7 @@ curl -fsSL https://raw.githubusercontent.com/alissonsleal/emil-animation-roast/r
 
 ## Example Output
 
-```markdown
+
 # Animation Roast Report
 
 Analyzed: src/components
@@ -205,7 +205,6 @@ it's always been there, just becoming visible. Elegant, not theatrical.
 ---
 
 Fix these, and your animations will feel intentional, fast, and natural.
-```
 
 ## Emil's 5 Pillars
 
