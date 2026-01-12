@@ -4,44 +4,44 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                   ANIMATION PHILOSOPHY                           │
+│                   ANIMATION PHILOSOPHY                          │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                   │
-│  1. PURPOSE-DRIVEN                                               │
-│     Every animation must answer "Why?"                           │
-│     ├─ Explain a feature                                         │
-│     ├─ Indicate state change                                     │
-│     ├─ Create spatial consistency                                │
-│     └─ ⚠️  RARELY: Bring delight (only if rare)                 │
-│                                                                   │
-│  2. FREQUENCY IS CRITICAL                                        │
-│     More use = Less animation                                    │
+│                                                                 │
+│  1. PURPOSE-DRIVEN                                              │
+│     Every animation must answer "Why?"                          │
+│     ├─ Explain a feature                                        │
+│     ├─ Indicate state change                                    │
+│     ├─ Create spatial consistency                               │
+│     └─ ⚠️  RARELY: Bring delight (only if rare)                  │
+│                                                                 │
+│  2. FREQUENCY IS CRITICAL                                       │
+│     More use = Less animation                                   │
 │     ├─ Daily use 100s times? REMOVE animation                   │
 │     ├─ Keyboard nav? NEVER animate                              │
 │     ├─ Rare interaction? Safe to delight                        │
-│     └─ ⚠️  Initial delight fades into annoyance                 │
-│                                                                   │
-│  3. SPEED = PERCEIVED PERFORMANCE                                │
-│     <300ms (usually 180-250ms)                                   │
+│     └─ ⚠️  Initial delight fades into annoyance                  │
+│                                                                 │
+│  3. SPEED = PERCEIVED PERFORMANCE                               │
+│     <300ms (usually 180-250ms)                                  │
 │     ├─ 180ms = snappy & responsive                              │
 │     ├─ 400ms = sluggish & disconnected                          │
 │     ├─ Faster spinner = perceived faster loading                │
-│     └─ ⚠️  Main consequence: trust broken                       │
-│                                                                   │
-│  4. EASING DETERMINES EVERYTHING                                 │
-│     Bad easing ruins great animations                            │
+│     └─ ⚠️  Main consequence: trust broken                        │
+│                                                                 │
+│  4. EASING DETERMINES EVERYTHING                                │
+│     Bad easing ruins great animations                           │
 │     ├─ ease-out: enter/exit (responsive)                        │
 │     ├─ ease-in-out: existing motion (natural)                   │
-│     ├─ Custom curves: always (built-in too weak)               │
-│     └─ ⚠️  Linear = robotic                                     │
-│                                                                   │
-│  5. NATURAL MOTION > MECHANICS                                   │
-│     Spring physics > tweens                                      │
-│     ├─ Nothing in real world moves linearly                      │
+│     ├─ Custom curves: always (built-in too weak)                │
+│     └─ ⚠️  Linear = robotic                                      │
+│                                                                 │
+│  5. NATURAL MOTION > MECHANICS                                  │
+│     Spring physics > tweens                                     │
+│     ├─ Nothing in real world moves linearly                     │
 │     ├─ Spring = interruptible & responsive                      │
-│     ├─ Config: stiffness, damping, mass                        │
-│     └─ ⚠️  Natural = feels alive                                │
-│                                                                   │
+│     ├─ Config: stiffness, damping, mass                         │
+│     └─ ⚠️  Natural = feels alive                                 │
+│                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -58,9 +58,9 @@
     └───────────┬──────────────┬────────────┘
                 │ NO           │ YES
                 ▼              ▼
-           [PURPOSE        ┌────────────────────────────┐
-            ROAST]         │  HOW OFTEN WILL USERS SEE IT?
-                           └────┬─────────┬─────────┬───┘
+           [PURPOSE        ┌──────────────────────────────┐
+            ROAST]         │  HOW OFTEN WILL USERS SEE IT?|
+                           └────┬─────────┬─────────┬─────┘
                               FREQUENT    OCCASIONAL  RARE
                                   │           │        │
                                   ▼           │        ▼
@@ -69,7 +69,7 @@
                                              ▼
                           ┌──────────────────────────────┐
                           │  HOW FAST IS IT?             │
-                          └──┬──────┬──────────┬────┬───┘
+                          └──┬──────┬──────────┬────┬────┘
                             <100ms 180-250ms 300ms 400ms+
                               │       │        │     │
                               │       ▼        │     ▼
@@ -77,7 +77,7 @@
                               │               ▼
                               │          ┌──────────────────┐
                               │          │  EASING CHOICE?  │
-                              │          └──┬──────┬───┬───┘
+                              │          └──┬──────┬───┬────┘
                               │             │      │   │
                               │        ease-in  ease-out custom
                               │             │        │     │
@@ -86,7 +86,7 @@
                               │                      ▼
                               │               ┌─────────────────┐
                               │               │  CSS PROPERTIES?│
-                              │               └──┬──────┬──┬───┘
+                              │               └──┬──────┬───┬───┘
                               │                  │      │  │
                               │             margin pad transform+opacity
                               │                  │      │  │
@@ -95,11 +95,11 @@
                               │                         ▼
                               │                  ┌───────────────┐
                               │                  │ INTERRUPTIBLE?│
-                              │                  └──┬──────┬────┘
+                              │                  └──┬──────┬─────┘
                               │               keyframes transitions
                               │                  │        │
                               │                  ▼        ▼
-                              │            [JUMPY]  [SMOOTH]
+                              │               [JUMPY]  [SMOOTH]
                               │
                               ▼
                          [ACCESSIBLE?]
